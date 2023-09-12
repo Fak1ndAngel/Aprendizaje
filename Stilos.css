@@ -1,0 +1,118 @@
+html{
+    font-family: 'Barriecito', cursive;
+    
+}
+body{
+    margin: 0;
+    background-color: navy;
+    text-align: center;
+    
+    
+}
+header{
+    background-color: darkorange;
+    color: black;
+    padding: 0rem 2rem;
+    
+    
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+header div{
+    text-align: right;
+    
+  
+    
+}
+.boton{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    
+    
+
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 8px;
+    text-align: right;
+
+}
+
+.links{
+    background-color: #f9f9f9;
+    display: none;
+    
+}
+
+
+.desplegable:hover .links{
+    display: inline;
+    text-align: right;
+}
+
+.desplegable{
+    position: relative;
+}
+
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+    
+
+}
+section article{
+    transition: all 0.3s ease;
+    background-color: aliceblue;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3)  ;
+
+}
+section article h2 section article p{
+    margin: 1rem;
+}
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color: darkorange;
+}
+footer section{
+    float: right
+    
+}
+
+
+footer p{
+    margin: 0;
+    float: center;
+     
+}
+
+footer a{
+    float: left
+
+}
+
+
+
+
