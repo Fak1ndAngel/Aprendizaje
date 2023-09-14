@@ -1,6 +1,7 @@
 function loguear () {
-    let usuario = document.getElementById("usuario").value;
-    let clave = document.getElementById("clave").value;
+    
+     let usuario = document.getElementById("usuario").value;
+     let clave = document.getElementById("clave").value;
 
     sessionStorage.setItem("usuario", usuario);
     sessionStorage.setItem("clave", clave);
