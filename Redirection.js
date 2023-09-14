@@ -5,6 +5,6 @@ function redirigirALogin() {
 }
 
 
-if (sessionStorage.getItem("usuario") == null || sessionStorage.getItem("usuario") == undefined ) {
+if (sessionStorage.getItem("usuario") == null || sessionStorage.getItem("clave") == undefined ) {
   redirigirALogin();
 }

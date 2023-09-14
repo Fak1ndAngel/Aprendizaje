@@ -1,19 +1,13 @@
-function almacenarCredenciales (usuario, clave) {
-    if (typeof(Storage) !== "undefined") {
-        sessionStorage.setItem("usuario", usuario);
-        sessionStorage.setItem("clave", clave);
-        console.log("credenciales almacenadas con exito.");
+function loguear () {
+    let usuario = document.getElementById("usuario").value;
+    let clave = document.getElementById("clave").value;
 
+    sessionStorage.setItem("usuario", usuario);
+    sessionStorage.setItem("clave", clave);
 
+    window.location.href = "blog.html";
 
-    } else {
-        console.log("tu navegador no soporta sessionStorage. No se pueden alamacenar las credenciales.");
-
-    }
 }
-
-
-
 
 
 

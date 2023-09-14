@@ -19,9 +19,32 @@
      <header>
       
         <h1 id="title">MY WORLD FAK</h1>
-        <div id="user-info"></div>
 
+        <script>
+            let usuario = sessionStorage.getItem("usuario")
+            let clave = sessionStorage.getItem("clave")
+    
+            if (usuario && clave) {
+                document.write("<p>Bienvenido, " + usuario + "!<p>");
+    
+            } else {
+                window.location.href = "login.html";
+            }
+
+        </script>
        
+       <script>
+        
+    if (usuario && clave) {
+
+        console.log("usuario:", usuario);
+        console.log("clave:", clave);
+
+}    else {
+        console.log("No se encontraron datos de usuario y contraseña en sessionStorage.")
+}
+
+       </script>
 
      </header>
 
@@ -83,10 +106,13 @@
        
     </footer>
 
+   
 
     <script src="logout.js"></script>
    <script src="Redirection.js"></script>
-   <script src="Username.js"></script>
+
+
+   
   
    
 </body>
