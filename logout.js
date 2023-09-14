@@ -1,4 +1,5 @@
 const logout = () => {
+    
     sessionStorage.removeItem('usuario')    
      window.location = 'login.html'
   }
